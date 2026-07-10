@@ -36,10 +36,9 @@ print("Accuracy :", round(r2*100,2), "%")
 plt.figure(figsize=(8,6))
 plt.scatter(X['Experience'], y, color='blue', label='Actual Data')
 
-X_grid = np.arange(X['Experience'].min(), X['Experience'].max(), 0.1)
-X_grid = X_grid.reshape(len(X_grid), 1)
+X_grid = pd.DataFrame({'Experience': np.arange(X['Experience'].min(), X['Experience'].max(), 0.1)})
 
-plt.plot(X_grid, model.predict(poly.transform(X_grid)), color='blue', linewidth=4, label='Polynomial regression curve')
+plt.plot(X_grid['Experience'], model.predict(poly.transform(X_grid)), color='blue', linewidth=4, label='Polynomial regression curve')
 plt.xlabel("Years of Experience")
 plt.ylabel("Salary")
 plt.title("Polynomial Regression")
