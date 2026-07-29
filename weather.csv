@@ -1,0 +1,15 @@
+Day,Outlook,Temperature,Humidity,Windy,Play Golf
+Day1,Rainy,Hot,High,F,N
+Day2,Rainy,Hot,High,T,N
+Day3,Overcast,Hot,High,T,Y
+Day4,Sunny,Mild,High,F,Y
+Day5,Sunny,Cool,Normal,T,N
+Day6,Sunny,Cool,Normal,T,Y
+Day7,Overcast,Cool,Normal,F,Y
+Day8,Rainy,Mild,High,F,Y
+Day9,Rainy,Cool,Normal,F,Y
+Day10,Sunny,Mild,Normal,F,Y
+Day11,Rainy,Mild,Normal,F,Y
+Day12,Overcast,Mild,High,T,Y
+Day13,Overcast,Hot,Normal,F,Y
+Day14,Sunny,Mild,High,T,N
