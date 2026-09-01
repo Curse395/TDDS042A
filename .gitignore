@@ -1,5 +1,7 @@
 ﻿.venv/
 .venv-1/
+.venv-2/
+.vscode/
 myenv/
 __pycache__/
 *.pyc
