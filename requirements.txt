@@ -1,0 +1,29 @@
+# API and web applications
+fastapi
+uvicorn[standard]
+pydantic
+email-validator
+python-jose[cryptography]
+SQLAlchemy
+streamlit
+requests
+
+# Data analysis and visualization
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+
+# Machine learning
+scikit-learn
+mlflow
+
+# Natural language processing
+gensim
+nltk
+textblob
+vaderSentiment
+transformers
+tensorflow
+torch
